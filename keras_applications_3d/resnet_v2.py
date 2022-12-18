@@ -19,7 +19,7 @@ Reference:
     (https://arxiv.org/abs/1603.05027) (CVPR 2016)
 """
 
-from tensorflow.python.keras.applications import imagenet_utils
+from keras.applications import imagenet_utils
 # from tensorflow.python.keras.applications import resnet
 from . import resnet
 from tensorflow.python.util.tf_export import keras_export
