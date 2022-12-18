@@ -10,7 +10,7 @@ import numpy as np
 
 from . import get_submodules_from_kwargs
 
-from tensorflow.python.keras import activations
+from keras import activations
 
 
 CLASS_INDEX = None
