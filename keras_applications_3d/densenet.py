@@ -19,12 +19,12 @@ Reference:
       https://arxiv.org/abs/1608.06993) (CVPR 2017)
 """
 
-from tensorflow.python.keras import backend
-from tensorflow.python.keras.applications import imagenet_utils
-from tensorflow.python.keras.engine import training
-from tensorflow.python.keras.layers import VersionAwareLayers
-from tensorflow.python.keras.utils import data_utils
-from tensorflow.python.keras.utils import layer_utils
+from keras import backend
+from keras.applications import imagenet_utils
+from keras.engine import training
+from keras.layers import VersionAwareLayers
+from keras.utils import data_utils
+from keras.utils import layer_utils
 from tensorflow.python.lib.io import file_io
 from tensorflow.python.util.tf_export import keras_export
 
